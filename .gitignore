@@ -1,0 +1,42 @@
+# Dependencies
+**/node_modules/
+**/.venv/
+**/.venv310/
+
+# Environment files
+**/.env
+.env
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Build outputs
+**/build/
+**/dist/
+**/target/
+
+# Face images (sensitive)
+**/faces/*.jpg
+**/faces/*.png
+!**/faces/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files (optional - include if you want consistent versions)
+# package-lock.json
+# yarn.lock
